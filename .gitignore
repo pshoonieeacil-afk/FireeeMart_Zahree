@@ -1,0 +1,16 @@
+# Dependencies & build
+node_modules/
+.next/
+out/
+.vercel/
+
+# Environment (berisi password database & secret — JANGAN di-upload)
+.env
+.env.*
+!.env.example
+!.env.local.example
+
+# Logs & OS
+npm-debug.log*
+.DS_Store
+Thumbs.db
